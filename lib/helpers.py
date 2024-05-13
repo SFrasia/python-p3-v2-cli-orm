@@ -28,7 +28,6 @@ def find_department_by_id():
     department = Department.find_by_id(id_)
     print(department) if department else print(f'Department {id_} not found')
 
-
 def create_department():
     name = input("Enter the department's name: ")
     location = input("Enter the department's location: ")
